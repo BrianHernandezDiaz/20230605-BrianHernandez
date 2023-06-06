@@ -1,0 +1,45 @@
+  302  top
+  303  apt install cowsay
+  304  app install cowsay
+  305  git init
+  306  git remote add origin https://github.com/BrianHernandezDiaz/20230605-BrianHernandez.git
+  307  git touch comandos.txt main.js index.html
+  308  mkdir 20230610-BrianHernandez
+  309  cd 20230610-BrianHernandez/
+  310  touch comandos.txt main.js index.html
+  311  git add .
+  312  git commit -m "commit 01 de BrianHernandez"
+  313  git push origin main
+  314  git branch feature
+  315  git checkout feature
+  316  mkdir Hardware Software Seguridadinformatica
+  317  git mv main.js resumenHardware.txt
+  318  git mv index.html resumenSoftware.txt
+  319  git mv resumenHardware.txt main.js
+  320  git mv resumenSoftware.txt index.html
+  321  cd Hardware/
+  322  touch resumen.txt
+  323  cd ..
+  324  cd Seguridadinformatica/
+  325  touch resumen.txt
+  326  cd ../
+  327  cd Hardware/
+  328  touch resumen.txt
+  329  cd ../
+  330  cd Software/
+  331  touch resumen.txt
+  332  git add .
+  333  git commit -m "commit 02 de BrianHernandez"
+  334  git push origin feature 
+  335  git checkout main
+  336  cd ..
+  337  mv main.js resumenHardware.txt
+  338  mv index.html resumenSoftware.txt
+  339  echo "Registros, Caché y Memoria Ram" > resumenSoftware.txt 
+  340  echo "Microsoft word, Adobe photoshop, Google chrome" > resumenHardware.txt 
+  341  mv resumenHardware.txt resumenSoftwarereal.txt 
+  342  mv resumenSoftware.txt resumenHardware
+  343  mv resumenHardware resumenHardware.txt
+  344  mv resumenSoftwarereal.txt resumenSoftware.txt
+  345  history > comandos.txt 
+  346  history 45 >comandos.txt 
